@@ -10,37 +10,34 @@ ul,ol {
     list-style: none;
 }
 
-li {
-    list-style: none;
-}
-
 a {
     text-decoration: none;
 }
-
-header {
+/*----Header----*/
+.header {
     background-color: #011627;
-    padding: 16px;
-
+    padding: 25px;    
+    }
+.marca {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.navbarLista{
+    display: flex;
+    justify-content: space-around;
+    padding: 2px
 }
 
-header nav ul li {
-    display: inline-block;
-    text-align: center;
-    padding: 0px 5px
-}
 
-header nav ul li a {
-    display: inline-block;
-    color: #fdfffc;
-    font-family: 'Montserrat', sans-serif;
-}
 
-header nav {
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-}
+
+
+
+
+
 
 h1 {
     font-size: 25pt;
