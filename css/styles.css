@@ -15,30 +15,12 @@ ol {
 a {
     text-decoration: none;
 }
-/*----Header----*/
-.header {
-    background-color: #011627;
-    background-size: cover;
-    padding: 15px;
-    color: #d90429;    
-}
+/*----Header----*/ 
 
-.marca {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
-}
 
-.navbar__lista {
-    display: flex;
-    justify-content: space-around;
-    padding: 5px;
-    gap: 30px;
-}
-.navbar__lista li {
-color:#f6f6f6
-}
+
+
+
 
 @media (min-width: 992px) {
 .header {
