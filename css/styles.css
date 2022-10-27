@@ -26,74 +26,14 @@ a {
     gap: 5px;
 }
 .navbarLista{
-    display: flex;
-    justify-content: space-around;
     padding: 2px
-}
+    display: flex;
+    justify-content: even;
+    }
+@media (min-width: 992px)
 
 
 
-
-
-
-
-
-
-h1 {
-    font-size: 25pt;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    text-size-adjust: 80%;
-    color: #df2935;
-    width: 1300px;
-    height: 80px
-}
-
-section article h2 {
-    font-size: 25pt;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    text-size-adjust: 80%;
-    color: #df2935;
-    width: 1300px;
-    height: 80px
-}
-
-section article h4,
-h5 {
-    font-size: 20pt;
-    font-family: 'Montserrat', sans-serif;
-    text-align: justify;
-    text-size-adjust: 80%;
-    color: #011627;
-    width: 1300px;
-    height: 80px
-}
-
-p {
-    font-size: 16pt;
-    font-family: Roboto, sans-serif;
-    font-weight: normal;
-    color: #011627;
-    text-align: center;
-}
-
-
-body {
-    background-color: #fdfffc;
-    font-family: Monteserrat, sans-serif;
-    color: #011627;
-}
-
-.principio__texto {
-    display: inline-block;
-    width: 150px;
-}
-
-.principio__imagen {
-    display: inline-block;
-    width: 300px;
-}
 
 .losCuatrofede {
     padding: 0px;
