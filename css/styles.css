@@ -106,50 +106,17 @@ body {
     float: center;
     width: 500px;
 }
-.sobrinos {
+.fotosSobrinos {
     display: flex;
     flex-flow: row nowrap;
     align-items: stretch;
     justify-content: center;
-
 }
-
-.fotoToto {
-    padding: 10px;
-    padding: 10px;
-    margin: 10px;
-    border: 2px solid black;
-}
-
-.fotoFede {
-    padding: 10px;
-    padding: 10px;
-    margin: 10px;
-    border: 2px solid black;
-    width: 188px; 
-} 
-
-/* .fotoJulieta {
-    padding: 10px;
-    padding: 10px;
-    margin: 10px;
-    border: 2px solid black;
-    float: center;
-    width: 250px;
-}
-
-.fotoEmiliano {
-    padding: 10px;
-    padding: 10px;
-    margin: 10px;
-    border: 2px solid black;
-    float: right;
-    width: 250px;
-} */
-
 .principio__texto {
-    display: inline-block;
+    display: flex;
     width: 150px;
+    text-align: center;
+    
 }
 
 .principio__imagen {
