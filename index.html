@@ -11,58 +11,74 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="title">
-            <h1 class="title__name">Tía Mangui Producciones</h1>
+    <header class="navbar navbar-expand-lg row flex-wrap">
+        <div class="container">
+            <h1 class="h1"><a class="navbar-brand titulo" href="#">Tía Mangui Producciones</a></h1>
         </div>
-        <div>
-            <nav class="navbar">
-                <ul class="navbar__lista">
-                    <li class="navbar__item"><a href="">Inicio</a></li>
-                    <li class="navbar__item"><a href="./pages/tiamangui.html">Tía Mangui</a></li>
-                    <li class="navbar__item"><a href="./pages/actividades.html">Actividades</a></li>
-                    <li class="navbar__item"><a href="./pages/servicios.html">Servicios</a></li>
-                    <li class="navbar__item"><a href="./pages/contacto.html">Contacto</a></li>
+        <nav>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active barra" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  barra" href="./pages/tiamangui.html">Tía Mangui</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  barra" href="./pages/actividades.html">Actividades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  barra" href="./pages/servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  barra" href="./pages/contacto.html">Contacto</a>
+                    </li>
                 </ul>
+                </div>
             </nav>
-        </div>
-    </header>
-    <main>
-        <section class="portada">
-            <div class="portada__texto">
+            </header>
+<main>
+        <section class="row">
+            <div class="col col-8">
                 <h2>¿Quién soy?</h2>
             </div>
         </section>
 
-        <section>
-            <div class="fotoloscuatro">
-                <img class="fotoloscuatro__fededib" src="./img/los4fede.jpg" alt="dibujo infantil sobrinos" class="blancoynegro">
+        <section class="row">
+            <div class="col-1">
+                <img class="fotoloscuatro__fededib" src="./img/los4fede.jpg" alt="dibujo infantil sobrinos"
+                    class="blancoynegro">
             </div>
-        </section>
 
-        <section class="principio">
-            <article class="principio__texto">
-                <p class="principio__parf">¡Hola! Mi nombre es Magdalena y soy la Tía Mangui. Mi mejor título
-                    de la
-                    vida es gracias a: Tomás, Federica, Julieta y Emiliano. Este espacio surge porque siempre
-                    quise
-                    emigar y cuando nacieron mis sobris se me complicó el triple la separación. Por lo cual, se
-                    me
-                    ocurrió compartir mi historia. Y así honrar este inmenso amor que siento "todos los
-                    días y cada día" cuanso sus risas visitan mi mente.
-                    También, es una forma de honrar a mis hermanos. Mi madre siempre nos
-                    decía "¡Los hermanos sean unidos, esa es la ley primera!" ¡Cuánta razón! ¿La han escuchado?
-                    Les agradezco desde el fondo de mi corazón por mis peques y el tener la
-                    oportunidad de ser parte de sus vidas. </p>
-                <br>
-                <p class="principio__parf"> Desde los 20 años me empezó a rondar la idea de vivir y estudiar en
-                    Europa, pero... facultad, la plata, ¿irme sola?... la vida misma... y me quede. Me recibí de
-                    Escribana Pública, ejercí, trabajé como docente suplente de materias relacionadas al derecho
-                    a nivel liceal; fui adscripta de bachillerato...hasta que un día una profe me dijo "¿Qué
-                    estás esperando? Todo va a seguir estando acá, vaya y cumpla su sueño." Y la respuesta a la
-                    pregunta "Si cerras los ojos, ¿Dónde querés estar?" Siempre me llevaban a Europa. Y llegué.
-                    En febrero 2020. Un timing... </p>
-            </article>
+            <div class="row">
+                <article class="col-12 md col-md-6 col-xl-6">
+                    <p class=" col-xl-6 text-center lh-base "> ¡Hola! Mi nombre es Magdalena y soy la Tía Mangui. Mi mejor título
+                        de la
+                        vida es gracias a: Tomás, Federica, Julieta y Emiliano. Este espacio surge porque siempre
+                        quise
+                        emigar y cuando nacieron mis sobris se me complicó el triple la separación. Por lo cual, se
+                        me
+                        ocurrió compartir mi historia. Y así honrar este inmenso amor que siento "todos los
+                        días y cada día" cuanso sus risas visitan mi mente.
+                        También, es una forma de honrar a mis hermanos. Mi madre siempre nos
+                        decía "¡Los hermanos sean unidos, esa es la ley primera!" ¡Cuánta razón! ¿La han escuchado?
+                        Les agradezco desde el fondo de mi corazón por mis peques y el tener la
+                        oportunidad de ser parte de sus vidas. </p>
+                </article>
+                <article class="col-12 col-md-6  col-xl-6">
+                    <p class=" col-xl-6 text-end  lh-base"> Desde los 20 años me empezó a rondar la idea de vivir y estudiar en
+                        Europa, pero... facultad, la plata, ¿irme sola?... la vida misma... y me quede. Me recibí de
+                        Escribana Pública, ejercí, trabajé como docente suplente de materias relacionadas al derecho
+                        a nivel liceal; fui adscripta de bachillerato...hasta que un día una profe me dijo "¿Qué
+                        estás esperando? Todo va a seguir estando acá, vaya y cumpla su sueño." Y la respuesta a la
+                        pregunta "Si cerras los ojos, ¿Dónde querés estar?" Siempre me llevaban a Europa. Y llegué.
+                        En febrero 2020. Un timing... </p>
+                </article>
+                </div>
         </section>
 
         <section class="chiquitines">

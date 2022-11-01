@@ -16,52 +16,16 @@ a {
 
 /*----Header----*/
 
-.header {
-    background-color: #011627;
-    padding: 15px;
-    color: #d80032;
-    font-family: 'Montserrat Alternates', sans-serif;
+.navbar-brand .titulo{
+    color: black;
+}
+.navbar-nav .nav-item .barra {
+    color: black;
+    background-color: lightcoral;
 }
 
-.navbar nav ul li{
-    display: inline-block;
-    color: #fdfffc;
-    padding: 0px 5px;
-}
 
-.title {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
 
-.navbar__lista {
-    padding: 5px;
-    display: flex;
-    justify-content: space-around;
-    gap: 30px;
-}
-
-@media (min-width:992px) {
-    .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-        height: 150px;
-    }
-}
-
-.portada__texto h2 {
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-    color: #d80032;
-    font-size: 6vh;
-    background-color: #b1a7a6;
-    font-family: 'Montserrat Alternates', sans-serif;
-}
 
 .fotoloscuatro__fededib {
     display: flex;
@@ -80,30 +44,13 @@ a {
         filter: none;
       } */
 
-.principio {
-    display: inline-flex;
-    text-align: center;
-    padding: 35px;
-    font-family: 'Trispace', sans-serif;
-    background-color: #b1a7a6;
-    margin-top: 20px;
 
 }
 
-.chiquitines__titulo {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    padding: 20px;
-    color: #d80032;
-    background-color: #b1a7a6;
-    font-family: 'Montserrat Alternates', sans-serif;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
 
 
-.chiquitines__fotos {
+
+/* .chiquitines__fotos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(1,1fr) ;
@@ -113,7 +60,7 @@ a {
 
 .chiquitines__img {
     width: 100%;
-}
+} */
 
 .footer {
     background-color: #011627;
