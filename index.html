@@ -5,17 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Secular+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/styles2.css">
     <title>Inicio. </title>
 </head>
 
 <body>
-    <header class="navbar navbar-expand-lg row flex-wrap">
-        <div class="container">
-            <h1 class="h1"><a class="navbar-brand titulo" href="#">Tía Mangui Producciones</a></h1>
+    <header class="navbar navbar-expand-lg d-flex flex-column">
+        <div class="container justify-content-center align-content-center">
+            <h1 class="display-1 text-center fw-bold h1"><a class="navbar-brand" href="#">Tía Mangui Producciones</a></h1>
         </div>
-        <nav>
+        <nav class="d-flex .flex-row justify-content-center">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -40,23 +43,22 @@
                 </ul>
                 </div>
             </nav>
-            </header>
-<main>
-        <section class="row">
+    </header>
+    <main>
+        <section class="col">
             <div class="col col-8">
-                <h2>¿Quién soy?</h2>
+                <h2 class="h2">¿Quién soy?</h2>
             </div>
         </section>
 
-        <section class="row">
-            <div class="col-1">
-                <img class="fotoloscuatro__fededib" src="./img/los4fede.jpg" alt="dibujo infantil sobrinos"
-                    class="blancoynegro">
+        <section class="principio">
+            <div>
+                <img  class="principio__imagen" src="./img/los4fede.jpg" alt="dibujo infantil sobrinos">
             </div>
-
-            <div class="row">
-                <article class="col-12 md col-md-6 col-xl-6">
-                    <p class=" col-xl-6 text-center lh-base "> ¡Hola! Mi nombre es Magdalena y soy la Tía Mangui. Mi mejor título
+            <div>
+                <article class="principio__texto1">
+                    <p class="principio__texto1"> ¡Hola! Mi nombre es Magdalena y soy la Tía Mangui. Mi
+                        mejor título
                         de la
                         vida es gracias a: Tomás, Federica, Julieta y Emiliano. Este espacio surge porque siempre
                         quise
@@ -69,8 +71,9 @@
                         Les agradezco desde el fondo de mi corazón por mis peques y el tener la
                         oportunidad de ser parte de sus vidas. </p>
                 </article>
-                <article class="col-12 col-md-6  col-xl-6">
-                    <p class=" col-xl-6 text-end  lh-base"> Desde los 20 años me empezó a rondar la idea de vivir y estudiar en
+                <article class="principio__texto2">
+                    <p class="principio__parrafo2"> Desde los 20 años me empezó a rondar la idea de vivir y
+                        estudiar en
                         Europa, pero... facultad, la plata, ¿irme sola?... la vida misma... y me quede. Me recibí de
                         Escribana Pública, ejercí, trabajé como docente suplente de materias relacionadas al derecho
                         a nivel liceal; fui adscripta de bachillerato...hasta que un día una profe me dijo "¿Qué
@@ -78,12 +81,12 @@
                         pregunta "Si cerras los ojos, ¿Dónde querés estar?" Siempre me llevaban a Europa. Y llegué.
                         En febrero 2020. Un timing... </p>
                 </article>
-                </div>
+            </div>
         </section>
 
         <section class="chiquitines">
             <article>
-                <h3 class="chiquitines__titulo"> ¿A quién le debo mi título? </h3>
+                <h2 class="chiquitines__titulo"> ¿A quién le debo mi título? </h2>
                 <div class="chiquitines__fotos">
                     <img class="chiquitines__img" src="./img/toto.jpg" alt="foto de sobrino toto">
                     <a href="" class="btn"></a>
@@ -108,7 +111,7 @@
             </ul>
         </div>
     </footer>
-
+   
 
     <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
