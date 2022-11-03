@@ -1,6 +1,14 @@
 /*---font-family: 'Roboto Mono', monospace;
 font-family: 'Secular One', sans-serif;----*/
 
+/*----medidas----*/
+/* .estilo-x {
+    font-size: calc(1em + 1vw);
+    line-height: 1em;
+    padding: 1em;
+    margin: 1em;} */
+
+
 * {
     margin: 0;
     padding: 0;
@@ -17,84 +25,48 @@ a {
 }
 
 /*----Header----*/
-.h1 {
+
+.navbar {
     background-color: #2ec4b6;
-    height: 15vh;
-    width: 100%;
-    border: solid;
+    width: auto;
+    border: solid 0.3em
+}
+
+.titulo__principal {
     font-family: 'Secular One', sans-serif;
 }
 
-.navbar-nav .nav-item .barra {
-    color: #011627;
-    background-color: lightcoral;
+.navbar-nav {
     font-family: 'Roboto Mono', monospace;
 }
 
+/*----h2----*/
 .h2 {
-    color: #f6f6f6;
-    background-color: #011627;
-    width: 215px;
-    height: 100%;
-    padding-left: 10px;
-    margin-left: 15px;
-}
-.principio__imagen {
-    height: auto;
-    width: 300px;
-    padding: 2px;
-    margin-left: 10px;
-    margin-top: 5px;
-    border: solid 5px
-}
-.principio {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    margin: 1em;
 }
 
-.principio__texto1 {
-    flex: 1;
-    padding-left: 10px;
+.h2__div {
+    width: 50%;
+}
+
+.h2__mismo {
     font-family: 'Roboto Mono', monospace;
-    
+    background-color: lightcoral;
+
 }
 
-.principio__texto2 {
-    flex: 2;
-    padding-left: 25px;
-    font-family: 'Roboto Mono', monospace;
+.btn-sobris {
+    background-color: #2ec4b6;
+    color: white;
+}
+.btn-sobris:hover{
+background-color: black ;
+border:lightcoral 3px solid;
+color: white;
 }
 
+/*----h2 Actividades----*/
 
-
-/* .blanconegro:hover{
-        cursor:pointer;
-        -webkit-filter: grayscale(0%);
-        filter: grayscale(0%);
-        filter: none;
-      } */
-
-
-.chiquitines__titulo {
-    display: flex;
-    justify-content: center;
-    background-color: #011627;
-    font-family: 'Roboto Mono', monospace;
-    color: #fdfffc;
-}
-
-.chiquitines__fotos {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 2px;
-    margin-left: 5px;
-}
-
-.chiquitines__img {
-    height: 200px;
-    width: 250px;
-}
 
 .footer {
     height: 8vh;
@@ -115,27 +87,37 @@ a {
 /*----tia mangui pagina----*/
 
 
+/* .expouno__fotoirlanda {
+    height: 15vh;
+    width: 20px;
+    border: solid 5px
+} */
+/* 
+.principio__imagen {
+    height: auto;
+    width: 300px;
+    padding: 2px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border: solid 5px
+} */
+
+
+
+
+
+/* 
 .expuno {
     display: flex;
-    align-items: left;
-    justify-content: left;
-    justify-content: left;
+    flex-direction: row;
+    align-items: flex-start;
 }
 
-.expuno__textoirlanda {
-    padding: 35px;
-    font-family: 'Trispace', sans-serif;
-    background-color: #b1a7a6;
-    margin-top: 10px;
-}
-
-.expuno__fotoirlanda {
-    width: 300px;
-    padding: 10px;
-    border: 5px solid black;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
+.expuno__textoirlanda{
+    flex: 1;
+    padding-left: 10px;
+    font-family: 'Roboto Mono', monospace;
+    
 }
 
 .expdos {
@@ -147,7 +129,7 @@ a {
 
 .expdos__textodinamarca {
     padding: 35px;
-    font-family: 'Trispace', sans-serif;
+    font-family: 'Roboto Mono', monospace;;
     background-color: #b1a7a6;
     margin-top: 20px;
 }
@@ -156,9 +138,7 @@ a {
     width: 300px;
     padding: 10px;
     border: 5px solid black;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
+    margin-left: 10px  auto auto;
 }
 
 .preguntaseria {
@@ -169,10 +149,10 @@ a {
     font-size: 5vh;
     background-color: #b1a7a6;
     font-family: 'Montserrat Alternates', sans-serif;
-}
+} */
 
 /*----actividades----*/
-.cocinamos {
+/* .cocinamos {
     padding: 10px;
     padding: 10px;
     margin: 10px;
@@ -188,9 +168,9 @@ a {
     border: 2px solid black;
     float: right;
     width: 250px;
-}
+} */
 
-.disney {
+/* .disney {
     padding: 10px;
     padding: 10px;
     margin: 10px;
@@ -202,16 +182,16 @@ a {
 
 /*----servicios----*/
 
-.cakepops {
+/* .cakepops {
     padding: 10px;
     padding: 10px;
     margin: 10px;
     border: 2px solid black;
     float: right;
     width: 250px;
-}
+} */
 
-.jugando {
+/* .jugando {
     padding: 10px;
     padding: 10px;
     margin: 10px;
@@ -220,20 +200,20 @@ a {
     width: 250px;
 }
 
-
+ */
 
 
 /*----contacto----*/
 
-form {
+/* form {
     width: 300px;
     padding: 16px;
     border-radius: 10px;
     margin: auto;
     background-color: #ccc;
-}
+} */
 
-form label {
+/* form label {
     width: 72px;
     font-weight: bold;
     display: inline-block;
@@ -248,9 +228,9 @@ form input[type="email"] {
     background-color: #f6f6f6;
     margin: 8px 0;
     display: inline-block;
-}
+} */
 
-form input[type="submit"] {
+/* form input[type="submit"] {
     width: 100%;
     padding: 8px 16px;
     margin-top: 32px;
@@ -273,6 +253,6 @@ textarea {
     background-color: #f6f6f6;
     margin: 8px 0;
     /*resize: vertical | horizontal | none | both*/
-    resize: none;
+/* resize: none;
     display: block;
-}
+}  */
