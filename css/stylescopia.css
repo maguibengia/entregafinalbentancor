@@ -53,10 +53,12 @@ a {
     font-family: 'Roboto Mono', monospace;
     background-color: lightcoral;
     font-size: 2rem;
-    }
-.div > h2 {
+}
+
+.div>h2 {
     font-size: 1em;
 }
+
 .btn-sobris {
     background-color: black;
     border: lightcoral 3px solid;
@@ -72,6 +74,20 @@ a {
 
 
 
+.redes {
+    width: 50%;
+    max-width: 700px;
+    padding: 20px 25px;
+    margin: auto;
+    background-color: #2ec4b6;
+}
+.social {
+    width: 70px;
+    position: fixed;
+    top: 50px;
+    right: 0;
+    gap: 10px;
+}
 
 
 
@@ -231,7 +247,7 @@ a {
 .container__foto2 figure .capa h3 {
     color: black;
     background-color: rgb(247, 184, 184);
-    font-family:'Secular One', sans-serif; 
+    font-family: 'Secular One', sans-serif;
     font-weight: 400;
     font-size: 1.5em;
     margin-bottom: 120px;
@@ -242,10 +258,11 @@ a {
 }
 
 .container__foto2 figure .capa p {
-    color:black;
+    color: black;
     background-color: #87cec7;
     font-size: 0.80em;
-    font-family: 'Secular One', sans-serif; ;
+    font-family: 'Secular One', sans-serif;
+    ;
     line-height: 1.5;
     width: 100%;
     max-width: 220px;
@@ -265,6 +282,7 @@ a {
     align-items: center;
     height: 100vh;
 }
+
 .container__foto4 figure {
     position: relative;
     height: 325px;
@@ -309,7 +327,7 @@ a {
 .container__foto4 figure .capa h3 {
     color: black;
     background-color: rgb(247, 184, 184);
-    font-family:'Secular One', sans-serif; 
+    font-family: 'Secular One', sans-serif;
     font-weight: 400;
     font-size: 1.5em;
     margin-bottom: 50px;
@@ -320,15 +338,16 @@ a {
 }
 
 .container__foto4 figure .capa p {
-    color:black;
+    color: black;
     background-color: #87cec7;
     font-size: 0.80em;
-    font-family: 'Secular One', sans-serif; ;
+    font-family: 'Secular One', sans-serif;
+    ;
     line-height: 1.5;
     width: 100%;
     max-width: 220px;
     margin-bottom: 10px;
-    }
+}
 
 
 
