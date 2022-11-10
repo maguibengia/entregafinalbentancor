@@ -55,7 +55,9 @@ font-family: 'Secular One', sans-serif;----*/
     background-color: lightcoral;
     font-size: 2rem;
 }
-
+.parrafo__tiamangui{
+    font-size: 0.5em;
+}
 .div>h2 {
     font-size: 1em;
 }
@@ -352,20 +354,6 @@ font-family: 'Secular One', sans-serif;----*/
 
 
 
-.navbar {
-    background-color: #2ec4b6;
-    width: 100%;
-    border: solid 0.3em
-}
-
-.titulo__principal {
-    font-family: 'Secular One', sans-serif;
-}
-
-.navbar-nav {
-    font-family: 'Roboto Mono', monospace;
-}
-
 .footer {
     width: 100%;
     border: solid 0.3em;
@@ -374,7 +362,7 @@ font-family: 'Secular One', sans-serif;----*/
     margin-top: 1em;
 }
 
-.footer__ul {
+.footer ul {
     display: flex;
     align-items: flex-start;
     justify-items: center;
