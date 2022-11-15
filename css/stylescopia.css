@@ -9,37 +9,9 @@ font-family: 'Secular One', sans-serif;----*/
     margin: 1em;} */
 
 
-
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family:'Secular One', sans-serif; ;
-    }
-    
-    ul,
-    ol {
-        list-style: none;
-    }
-    
-    a {
-        text-decoration: none;
-    }
 /*----Header----*/
 
-.navbar {
-    background-color: #2ec4b6;
-    width: 100%;
-    border: solid 0.3em
-}
 
-.titulo__principal {
-    font-family: 'Secular One', sans-serif;
-}
-
-.navbar-nav {
-    font-family: 'Roboto Mono', monospace;
-}
 
 /*----h2----*/
 .h2 {
@@ -83,13 +55,6 @@ font-family: 'Secular One', sans-serif;----*/
     padding: 20px 25px;
     margin: auto;
     background-color: #2ec4b6;
-}
-.social {
-    width: 70px;
-    position: fixed;
-    top: 50px;
-    right: 0;
-    gap: 10px;
 }
 
 

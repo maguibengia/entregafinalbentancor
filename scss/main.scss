@@ -1,5 +1,10 @@
-h1{
-    color: aqua;
-}
-@import "./components/tarjeta";
 
+@import "./utils.scss/mixin";
+@import "./utils.scss/variables";
+@import "./base.scss/base";
+@import "./components.scss/components";
+@import "./pages.scss/index";
+@import "./pages.scss/tiamangui";
+@import "./pages.scss/actividades";
+@import "./pages.scss/servicios";
+@import "./pages.scss/contacto";
