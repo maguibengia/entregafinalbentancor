@@ -1,7 +1,5 @@
-
-
 .h2 {
-    margin: 1em;
+    margin: 3em;
 }
 
 .h2__div {
@@ -13,11 +11,15 @@
     background-color: lightcoral;
     font-size: 2rem;
 }
-.parrafo__tiamangui{
-    font-size: 0.5em;
-}
+
 .div>h2 {
     font-size: 1em;
+}
+
+.p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.5em;
+    font-weight: normal;
 }
 
 .btn-sobris {
@@ -30,4 +32,10 @@
     background-color: #2ec4b6;
     border: black 3px solid;
     color: white;
+}
+
+.tia__mangui {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: antiquewhite;
 }
